@@ -1,5 +1,0 @@
-streamlit
-langflow
-groq
-astrapy
-pypdf
