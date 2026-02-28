@@ -4,8 +4,10 @@ import requests
 st.set_page_config(page_title="AI App", page_icon="🤖")
 st.title("🤖 AI Workflow App")
 
-FLOW_ID = "14acd4e9-6fc9-4d48-90b2-cb76af390bd2"
-LANGFLOW_URL = "http://localhost:7860"
+FLOW_ID = "5d14cf66-3f9a-4daf-960c-4f300939ec34"
+LANGFLOW_URL = "https://manjushatambe-llm-langflow-ai-agent-demo.hf.space"
+
+API_URL = f"{LANGFLOW_URL}/api/v1/run/{FLOW_ID}"
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
