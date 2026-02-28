@@ -4,7 +4,7 @@ import requests
 st.set_page_config(page_title="AI App", page_icon="🤖")
 st.title("🤖 AI Workflow App")
 
-FLOW_ID = "5d14cf66-3f9a-4daf-960c-4f300939ec34"
+FLOW_ID = "cd60990e-1e23-4a7f-8de4-b18fbf6a3f38"
 LANGFLOW_URL = "https://manjushatambe-llm-langflow-ai-agent-demo.hf.space"
 
 API_URL = f"{LANGFLOW_URL}/api/v1/run/{FLOW_ID}"
