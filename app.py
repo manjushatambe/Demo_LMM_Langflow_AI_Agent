@@ -13,12 +13,12 @@ if prompt := st.chat_input("Ask a question about your PDF..."):
         "input_value": prompt
       },
       "AstraDB-gqqNc": {
-        "token": st.secrets["AstraCS:mFQPzrtclSOzDrrfkkfpWFed:b58b98a14d413ce54c826d477fe3a679f61cec53c82de06d9e16b0831f797f69"],
+        "token": st.secrets["ASTRA_DB_APPLICATION_TOKEN"],
         "api_endpoint": "https://d98a5850-19a2-44c4-9cd9-d9abc9f6f5bb-us-east1.apps.astra.datastax.com",
         "collection_name": "llm_collect"
       },
       "GroqModel-7Tvzb": {
-        "groq_api_key": st.secrets["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"]
+        "groq_api_key": st.secrets["GROQ_API_KEY"]
       },
       "OllamaEmbeddings-PVNW8": {
         "base_url": "https://manjushatambe-ollama-space.hf.space" # Or your HF Space URL
